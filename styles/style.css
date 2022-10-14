@@ -1,55 +1,83 @@
 * { 
-    padding: 0; 
-    margin: 0;
-    border: 0;
-  }
+  padding: 0; 
+  margin: 0;
+  border: 0;
+}
 
 html {
-    background-color: #E7F6F2;
-    scroll-behavior: smooth;
+  background-color: #3D0000;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+a, ul {
+  color: #f7dfdf;
+  text-shadow: 1px 1px 1px black;
+  }
+  /*    Navbar    */
+  .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color:#000000;
+    opacity: 0.9;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 16px;
+  }  
+  .nav-links a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 16px;
   }
   
-  h1 {
-    font-family: Garamond, 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-weight: 700;
-  }
-  
-  a, ul {
+  .nav-links a:hover {
+    background-color: #3D0000;
+    cursor: pointer;
     color: #ffffff;
-    text-shadow: 1px 1px 1px black;
-    }
-    /*    Navbar    */
-    .navbar {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      background-color:#000000;
-      opacity: 0.9;
-      position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    }
-    .nav-links {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      list-style: none;
-      margin-left: auto;
-      margin-right: 12px;
-    }  
-    .nav-links a {
-      text-decoration: none;
-      display: block;
-      font-size: 20px;
-      padding: 16px;
-    }
-    
-    .nav-links a:hover {
-      background-color: #3D0000;
-      cursor: pointer;
-      color: #ffffff;
-      text-shadow: 1px 1px 2px black;
-    }
-    
-    
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  /* main section */
+  #title-section {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    padding: 128px;
+    padding-bottom: auto;
+
+  }
+  .main-textbox {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  /* whoami section */
+  .whoami {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 64px;;
+  }
