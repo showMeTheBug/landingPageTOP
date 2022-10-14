@@ -89,7 +89,6 @@ a, ul {
     }
     
     #whoami-textbox {
-      
       color: #ffffff;
       text-shadow: 2px 2px 4px #000000;
       text-align: center;
@@ -100,4 +99,36 @@ a, ul {
       flex: 1 1 auto;
       max-width: 300px;
       border-radius: 15%;
+    }
+
+    /* skills section */
+    #skills-tile{
+      color: #ffffff;
+      text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      padding-top: 64px;
+    }
+    .skills-list {
+      display: flex;
+    }
+
+    .skills-list p {
+      flex: 1;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      padding-top: 64px;
+      padding-bottom:  128px;
+    }
+    .jslogo, 
+    .htmllogo, 
+    .csslogo {
+      max-width: 300px;
+      flex: 1 1 auto;
+    }
+    .logos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
     }
