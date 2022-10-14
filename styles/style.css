@@ -58,8 +58,6 @@ a, ul {
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     padding: 128px;
-    padding-bottom: auto;
-
   }
   .main-textbox {
     color: #ffffff;
@@ -75,9 +73,31 @@ a, ul {
     background-color: #000000;
     color: #ffffff;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 64px;;
   }
+
+    #whoami-title {
+      color: #ffffff;
+      text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      margin-top: 128px;
+      display: flex;
+      flex-direction: column;
+      gap: 64px;
+    }
+    
+    #whoami-textbox {
+      
+      color: #ffffff;
+      text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      padding-top: 64px;
+      padding-bottom:  128px;
+    }
+    #hackerimg {
+      flex: 1 1 auto;
+      max-width: 300px;
+      border-radius: 15%;
+    }
